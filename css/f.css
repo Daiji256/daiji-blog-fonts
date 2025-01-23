@@ -29,7 +29,7 @@
     font-family: "f-mono";
     src: url(../fonts/f-mono/f-mono-regular.woff2) format("woff2"),
         url(../fonts/f-mono/f-mono-regular.woff) format("woff"),
-        url(../fonts/f-mono/f-mono-regular.otf) format("truetype");
+        url(../fonts/f-mono/f-mono-regular.ttf) format("truetype");
     font-weight: 400;
     font-display: fallback;
 }
@@ -38,7 +38,7 @@
     font-family: "f-mono";
     src: url(../fonts/f-mono/f-mono-bold.woff2) format("woff2"),
         url(../fonts/f-mono/f-mono-bold.woff) format("woff"),
-        url(../fonts/f-mono/f-mono-bold.otf) format("truetype");
+        url(../fonts/f-mono/f-mono-bold.ttf) format("truetype");
     font-weight: 600;
     font-display: fallback;
 }

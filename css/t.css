@@ -99,6 +99,7 @@
         url(../fonts/tj-sans/tj-sans-r.woff) format("woff"),
         url(../fonts/tj-sans/tj-sans-r.ttf) format("truetype");
     font-weight: 400;
+    size-adjust: 92.5%;
     font-display: fallback;
 }
 
@@ -109,5 +110,6 @@
         url(../fonts/tj-sans/tj-sans-b.woff) format("woff"),
         url(../fonts/tj-sans/tj-sans-b.ttf) format("truetype");
     font-weight: 700;
+    size-adjust: 92.5%;
     font-display: fallback;
 }

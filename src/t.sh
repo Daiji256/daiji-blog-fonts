@@ -48,7 +48,7 @@ fonttools subset tmp/NewCMMono10-BoldOblique.otf --text-file=src/subset.txt --na
 fonttools ttLib fonts/t-mono/t-mono-bi.otf --flavor woff -o fonts/t-mono/t-mono-bi.woff
 fonttools ttLib fonts/t-mono/t-mono-bi.otf --flavor woff2 -o fonts/t-mono/t-mono-bi.woff2
 
-fonttools subset tmp/NewCMSansMath-Regular.otf --text-file=src/subset.txt --name-IDs=0,7 --output-file=fonts/t-math/t-math-r.otf
+cp tmp/NewCMSansMath-Regular.otf fonts/t-math/t-math-r.otf
 fonttools ttLib fonts/t-math/t-math-r.otf --flavor woff -o fonts/t-math/t-math-r.woff
 fonttools ttLib fonts/t-math/t-math-r.otf --flavor woff2 -o fonts/t-math/t-math-r.woff2
 
